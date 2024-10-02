@@ -1,0 +1,32 @@
+E-commerce
+
+|.
+
+1. User privilages (Registered Users)
+2. Shopping cart
+3. Signup with CAPTCHA
+4. User Profile
+5. User feedback information
+6. User purchase history
+7. Messaging
+8. Sharing via social networking sites
+9. Search features
+10. Log in and log out(session control)
+11. Update user newsfeeds
+12. Forgot password features
+
+||.
+
+1. Secure log in feature
+2. Manage users
+3. Can view oayment transactions
+4. Manage products
+5. Manage feedbacks
+6. Can view all data reports in PDF
+
+|||.
+
+1. Searching for products
+2. Adding products to the shopping cart
+3. Purchasing of the products via Paypal
+4. Recording of guest's name and email
