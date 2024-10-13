@@ -10,7 +10,7 @@ export default {
         'dark': '#1E2124',
         'grey': '#36393E',
         'primary': '#FFA62F',
-        'secondary': '#5AB2FF',
+        'secondary': '#1E90FF',
       },
       backgroundImage: {
         'gradient-primary': 'linear-gradient(90deg, #FFA62F 0%, #FF5C00 100%)', // Gradient for buttons

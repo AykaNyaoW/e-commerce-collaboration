@@ -19,8 +19,8 @@ export default function Header() {
                 <div className="flex">
                     <button 
                         onClick={activeButton} 
-                        className={`py-1.5 px-5 rounded font-semibold text-sm ${active === 'login' ? 
-                        'bg-gradient-primary text-dark' : 'bg-transparent text-white border border-none'}
+                        className={`py-1.5 px-4 rounded font-semibold text-sm ${active === 'login' ? 
+                        'bg-gradient-primary text-dark font-bold' : 'bg-transparent text-white border border-none'}
                         transition duration-300`}
                         aria-pressed={active === 'login'}
                     >
@@ -28,8 +28,8 @@ export default function Header() {
                     </button>
                     <button 
                         onClick={activeButton} 
-                        className={`py-1.5 px-5 rounded font-semibold text-sm ${active === 'signup' ? 
-                        'bg-gradient-primary text-dark' : 'bg-transparent text-white border border-none'}
+                        className={`py-1.5 px-4 rounded font-semibold text-sm ${active === 'signup' ? 
+                        'bg-gradient-primary text-dark font-bold' : 'bg-transparent text-white border border-none'}
                         transition duration-300`}
                         aria-pressed={active === 'signup'}
                     >
