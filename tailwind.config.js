@@ -8,7 +8,7 @@ export default {
       },
       colors: {
         'dark': '#1E2124',
-        'light': '#36393E',
+        'grey': '#36393E',
         'primary': '#FFA62F',
         'secondary': '#5AB2FF',
       },
@@ -17,7 +17,7 @@ export default {
       },
       height: {
         '50': '50px', // Custom height for header
-      }
+      },
     },
   },
   plugins: [],

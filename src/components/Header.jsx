@@ -13,22 +13,24 @@ export default function Header() {
     }
 
     return (
-        <div className="relative w-full h-50 bg-dark">
-            <header className="container mx-auto flex justify-between items-center h-full">
+        <div className="relative w-full h-50 bg-dark ">
+            <header className=" mx-4 flex justify-between items-center h-full">
                 <img src={logo} alt="logo" className='w-[200px] h-auto' />
-                <div className="flex"> {/* Added spacing between buttons */}
+                <div className="flex">
                     <button 
                         onClick={activeButton} 
-                        className={`py-1.5 px-5 rounded font-bold text-sm ${active === 'login' ? 'bg-gradient-primary text-dark' :
-                        'bg-transparent text-white border border-none'} transition duration-300`}
+                        className={`py-1.5 px-5 rounded font-semibold text-sm ${active === 'login' ? 
+                        'bg-gradient-primary text-dark' : 'bg-transparent text-white border border-none'}
+                        transition duration-300`}
                         aria-pressed={active === 'login'}
                     >
                         LOGIN
                     </button>
                     <button 
                         onClick={activeButton} 
-                        className={`py-1.5 px-5 rounded font-bold text-sm ${active === 'signup' ? 'bg-gradient-primary text-dark'
-                        : 'bg-transparent text-white border border-none'} transition duration-300`}
+                        className={`py-1.5 px-5 rounded font-semibold text-sm ${active === 'signup' ? 
+                        'bg-gradient-primary text-dark' : 'bg-transparent text-white border border-none'}
+                        transition duration-300`}
                         aria-pressed={active === 'signup'}
                     >
                         SIGN IN
