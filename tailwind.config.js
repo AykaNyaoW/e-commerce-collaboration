@@ -18,6 +18,7 @@ export default {
       height: {
         '50': '50px', // Custom height for header
       },
+      
     },
   },
   plugins: [],

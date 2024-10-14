@@ -7,16 +7,17 @@ import { useState } from 'react';
 const menuItems = ['Home', 'Guides', 'Videos', 'News'];
 
 export default function Navbar() {
-  const [active, setActive] = useState('home');
 
   return (
-    <div className='w-3/4 mx-auto h-10 bg-grey my-5 rounded'>
-      <nav className='relative mx-5 flex items-center h-full justify-between mr-1'>
+    <div className='flex flex-col w-full h-auto mx-auto py-3 md:w-3/4 bg-grey md:w-3/4 md:p-0 md:h-10 md:my-5 
+    md:rounded'>
+      <nav className='relarive w-full h-full flex flex-col-reverse items-center gap-2 px-4 mr-1 
+      md:flex-row md:w-auto md:mx-5 md:justify-between'>
 
-        <ul className='relative flex text-white text-sm gap-8'>
+        <ul className='relative flex text-white text-sm gap-8 w-full justify-between md:justify-start'>
           {menuItems.map((item) => (
             <li key={item}>
-              <a href="#" className='relative group pb-1.5'>
+              <a href="#" className='relative group pb-1.5 '>
                 {item}
                 <span className='absolute left-0 bottom-0 h-1 w-full bg-secondary
                   scale-x-0 transition-transform duration-300 group-hover:scale-x-100' />
@@ -25,7 +26,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className='relative w-2/5 flex items-center gap-2 '>
+        <div className='relative w-full md:w-3/5 flex items-center gap-2 '>
           <div className='relative w-full'>
             <input
               type="text"
