@@ -11,8 +11,8 @@ export default function Navbar() {
   return (
     <div className='flex flex-col w-full h-auto mx-auto py-3 md:w-3/4 bg-grey md:w-3/4 md:p-0 md:h-10 md:my-5 
     md:rounded'>
-      <nav className='relarive w-full h-full flex flex-col-reverse items-center gap-2 px-4 mr-1 
-      md:flex-row md:w-auto md:mx-5 md:justify-between'>
+      <nav className='relarive w-full h-full flex flex-col-reverse items-center gap-2 px-4
+      md:flex-row md:w-auto md:mx-5 md:justify-between mr-1'>
 
         <ul className='relative flex text-white text-sm gap-8 w-full justify-between md:justify-start'>
           {menuItems.map((item) => (
